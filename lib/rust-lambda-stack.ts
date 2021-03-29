@@ -8,7 +8,7 @@ export class RustLambdaStack extends cdk.Stack {
 
     // Function that calls Rust
     new lambda.Function(this, 'rust-hello', {
-      description: 'Using Rust on Lambda as a custom runtime',
+      description: 'Deploying a Rust function on Lambda using the Rust runtime',
       code: lambda.Code.fromAsset(
         'resources/target/x86_64-unknown-linux-musl/release/lambda'
       ),

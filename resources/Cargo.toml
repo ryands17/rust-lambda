@@ -13,3 +13,7 @@ serde = "1.0.125"
 serde_json = "1.0.64"
 simple_logger = "1.11.0"
 tokio = {version = "1", features = ["full"]}
+
+[[bin]]
+name = "bootstrap"
+path = "src/main.rs"
