@@ -1,0 +1,15 @@
+[package]
+authors = ["Ryan <dsouza.ryan.11@gmail.com>"]
+edition = "2018"
+name = "resources"
+version = "1.0.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lambda_runtime = "0.3.0"
+log = "0.4.14"
+serde = "1.0.125"
+serde_json = "1.0.64"
+simple_logger = "1.11.0"
+tokio = {version = "1", features = ["full"]}
