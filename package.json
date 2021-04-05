@@ -8,10 +8,9 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "jest",
+    "test": "./build-function.sh && jest",
     "cdk": "cdk",
-    "predeploy": "./build-function.sh",
-    "deploy": "cdk deploy",
+    "deploy": "./build-function.sh && cdk deploy",
     "prepare": "husky install"
   },
   "devDependencies": {

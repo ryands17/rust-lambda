@@ -483,7 +483,6 @@ version = "1.0.0"
 dependencies = [
  "lambda_runtime",
  "log",
- "serde",
  "serde_json",
  "simple_logger",
  "tokio",
