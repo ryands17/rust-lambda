@@ -1,5 +1,7 @@
 # Rust runtime for Lambda with the CDK
 
+[![Build Status](https://github.com/ryands17/rust-lambda/actions/workflows/main.yml/badge.svg)](https://github.com/ryands17/rust-lambda/actions/workflows/main.yml)
+
 This is a CDK project that deploys a Rust function using the Rust runtime for Lambda. This creates a basic handler that logs some data sent as input.
 
 ## Prerequisites

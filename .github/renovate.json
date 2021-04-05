@@ -1,0 +1,24 @@
+{
+  "extends": ["config:base"],
+  "masterIssue": true,
+  "schedule": ["on the 17 day of the month"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance",
+        "rollback",
+        "bump"
+      ],
+      "automerge": true
+    },
+    {
+      "packagePatterns": [".*aws-cdk"],
+      "groupName": "cdk deps"
+    }
+  ]
+}

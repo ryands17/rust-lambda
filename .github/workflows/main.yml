@@ -27,6 +27,14 @@ jobs:
           restore-keys: |
             nodeModules-
 
+      - name: Cached rust target
+        uses: actions/cache@v2
+        with:
+          path: resources/target
+          key: target-${{ hashFiles('**/Cargo.toml') }}
+          restore-keys: |
+            target-
+
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
@@ -36,9 +44,6 @@ jobs:
           toolchain: stable
           target: x86_64-unknown-linux-musl
           override: true
-
-      - name: Test cargo
-        run: cargo --version
 
       - name: Run Tests
         run: yarn test --coverage --maxWorkers=2
