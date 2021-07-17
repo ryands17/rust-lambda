@@ -28,7 +28,7 @@
   "dependencies": {
     "@aws-cdk/aws-lambda": "1.114.0",
     "@aws-cdk/core": "1.114.0",
-    "husky": "6.0.0",
+    "husky": "7.0.1",
     "source-map-support": "0.5.19"
   },
   "lint-staged": {
