@@ -29,7 +29,7 @@
     "@aws-cdk/aws-lambda": "1.119.0",
     "@aws-cdk/core": "1.119.0",
     "husky": "7.0.2",
-    "source-map-support": "0.5.19"
+    "source-map-support": "0.5.20"
   },
   "lint-staged": {
     "*.{js,ts,json,md}": "prettier --write"
