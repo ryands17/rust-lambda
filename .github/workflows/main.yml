@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install packages
-        run: sudo apt-get install -y musl-tools
+      - name: Install build packages
+        run: sudo apt-get install -y musl-tools gcc-aarch64-linux-gnu
 
       - name: Checkout
         uses: actions/checkout@v2
@@ -49,7 +49,7 @@ jobs:
           override: true
 
       - name: Build function
-        run: ./build-function.sh
+        run: cp ./ubuntu-config ~/.cargo/config && ./build-function.sh
 
       - name: Run Tests
         run: yarn test --coverage --maxWorkers=2
