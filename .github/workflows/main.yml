@@ -46,7 +46,7 @@ jobs:
           override: true
 
       - name: Build function
-        run: ../../build-function.sh
+        run: ./build-function.sh
 
       - name: Run Tests
         run: yarn test --coverage --maxWorkers=2
