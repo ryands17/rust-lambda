@@ -8,7 +8,7 @@ This is a CDK project that deploys a Rust function using the Rust runtime for La
 
 ## Prerequisites
 
-- Follow instructions mentioned in [this post](https://aws.amazon.com/blogs/opensource/rust-runtime-for-aws-lambda/) that explains how to build Rust funcitons for AWS Lambda.
+- Follow instructions mentioned in [this post](https://aws.amazon.com/blogs/opensource/rust-runtime-for-aws-lambda/) that explains how to build Rust functions for AWS Lambda.
 
 **_Note_**: As we are using `arm` as the architecture, we need to add the following target:
 
