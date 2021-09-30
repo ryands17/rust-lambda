@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Install packages
+        run: sudo apt-get install -y musl-tools
+
       - name: Checkout
         uses: actions/checkout@v2
 
