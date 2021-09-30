@@ -4,9 +4,19 @@
 
 This is a CDK project that deploys a Rust function using the Rust runtime for Lambda. This creates a basic handler that logs some data sent as input.
 
+**Update**: I have updated the Lambda function to use the newly introduced [Graviton Processor](https://aws.amazon.com/blogs/aws/aws-lambda-functions-powered-by-aws-graviton2-processor-run-your-functions-on-arm-and-get-up-to-34-better-price-performance/) for faster and cheaper workloads.
+
 ## Prerequisites
 
 - Follow instructions mentioned in [this post](https://aws.amazon.com/blogs/opensource/rust-runtime-for-aws-lambda/) that explains how to build Rust funcitons for AWS Lambda.
+
+**_Note_**: As we are using `arm` as the architecture, we need to add the following target:
+
+```
+rustup target add aarch64-unknown-linux-musl
+```
+
+And then follow the instructions as specified [in this post](https://john-millikin.com/notes-on-cross-compiling-rust) for cross-compilation.
 
 - Create a `cdk.context.json` with the `region` key to specify the region of your choice (default is `us-east-2`).
 
