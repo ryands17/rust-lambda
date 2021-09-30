@@ -11,9 +11,10 @@ export class RustLambdaStack extends cdk.Stack {
       description:
         'Deploying a Rust function on Lambda using the custom runtime',
       code: lambda.Code.fromAsset(
-        'resources/target/x86_64-unknown-linux-musl/release/lambda'
+        'resources/target/aarch64-unknown-linux-musl/release/lambda'
       ),
       runtime: lambda.Runtime.PROVIDED_AL2,
+      architectures: [lambda.Architecture.ARM_64],
       handler: 'not.required',
       environment: {
         RUST_BACKTRACE: '1',
