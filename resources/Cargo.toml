@@ -9,7 +9,7 @@ version = "1.0.0"
 [dependencies]
 lambda_runtime = "0.4.1"
 log = "0.4.14"
-serde_json = "1.0.70"
+serde_json = "1.0.71"
 simple_logger = "1.13.0"
 tokio = {version = "1.14.0", features = ["full"]}
 
