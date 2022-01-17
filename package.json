@@ -19,7 +19,7 @@
     "@types/node": "16.11.19",
     "aws-cdk": "1.136.0",
     "jest": "27.4.5",
-    "lint-staged": "12.1.2",
+    "lint-staged": "12.1.7",
     "prettier": "2.5.1",
     "ts-jest": "27.1.2",
     "ts-node": "10.4.0",
