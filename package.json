@@ -18,7 +18,7 @@
     "@types/jest": "27.4.0",
     "@types/node": "16.11.25",
     "aws-cdk": "1.144.0",
-    "jest": "27.4.7",
+    "jest": "27.5.1",
     "lint-staged": "12.1.7",
     "prettier": "2.5.1",
     "ts-jest": "27.1.3",
