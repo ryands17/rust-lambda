@@ -15,7 +15,7 @@ jobs:
         run: sudo apt-get install -y musl-tools gcc-aarch64-linux-gnu
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Use Node 12
         uses: actions/setup-node@v3
