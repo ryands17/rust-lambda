@@ -16,7 +16,7 @@
   "devDependencies": {
     "@aws-cdk/assert": "1.144.0",
     "@types/jest": "27.4.0",
-    "@types/node": "16.11.25",
+    "@types/node": "16.11.27",
     "aws-cdk": "1.144.0",
     "jest": "27.5.1",
     "lint-staged": "12.3.4",
