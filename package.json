@@ -14,10 +14,10 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.152.0",
+    "@aws-cdk/assert": "1.157.0",
     "@types/jest": "27.4.0",
     "@types/node": "16.11.27",
-    "aws-cdk": "1.152.0",
+    "aws-cdk": "1.157.0",
     "jest": "27.5.1",
     "lint-staged": "12.3.8",
     "prettier": "2.6.2",
@@ -26,8 +26,8 @@
     "typescript": "4.6.3"
   },
   "dependencies": {
-    "@aws-cdk/aws-lambda": "1.152.0",
-    "@aws-cdk/core": "1.152.0",
+    "@aws-cdk/aws-lambda": "1.157.0",
+    "@aws-cdk/core": "1.157.0",
     "husky": "7.0.4",
     "source-map-support": "0.5.21"
   },
