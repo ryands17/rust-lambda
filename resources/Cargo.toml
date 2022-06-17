@@ -11,7 +11,7 @@ lambda_runtime = "0.5.1"
 log = "0.4.17"
 serde_json = "1.0.81"
 simple_logger = "2.1.0"
-tokio = {version = "1.18.2", features = ["full"]}
+tokio = {version = "1.19.2", features = ["full"]}
 
 [[bin]]
 name = "bootstrap"
