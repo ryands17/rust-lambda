@@ -10,7 +10,7 @@ version = "1.0.0"
 lambda_runtime = "0.9.2"
 log = "0.4.20"
 serde_json = "1.0.113"
-simple_logger = "2.3.0"
+simple_logger = "4.3.3"
 tokio = {version = "1.36.0", features = ["full"]}
 
 [[bin]]
